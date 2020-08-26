@@ -1,1 +1,1 @@
-this is just a readme for linked lisst
+i now updated the readme to check git push
