@@ -67,8 +67,13 @@ class Queue {
         }
         else
         {
-            front++;
-            size++;
+            for(int i = 0 ; i < rear ; i++)
+            {
+                System.out.println("que i-1" + que[i]);
+                que[i] = que[i+1];
+
+            }
+            rear--;
         }
     }
 
